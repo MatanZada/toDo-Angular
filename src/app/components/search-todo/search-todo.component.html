@@ -1,0 +1,5 @@
+<input nbInput placeholder="id" #inputId>
+<input nbInput placeholder="Text" #inputText>
+<input nbInput placeholder="Date" type="date" #inputDate>
+<input nbInput placeholder="isDone" #inputisDone>
+<button nbButton (click)="addTodo(inputText,inputDate,inputisDone,inputId)">Add ToDo</button>

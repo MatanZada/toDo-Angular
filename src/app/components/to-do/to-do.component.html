@@ -1,0 +1,18 @@
+<nb-card>
+  <nb-card-header>TODO {{_id}}</nb-card-header>
+  <nb-card-body *ngIf="!isEdit">
+    {{Text}}<br>
+    {{Date}}<br>
+    {{isDone}}<br>
+  </nb-card-body>
+  <div *ngIf="isEdit">
+    <input type="text" nbInput placeholder="Text" #inputText value="{{Text}}">
+    <input type="date" nbInput placeholder="Date" #inputDate value="{{Date}}">
+    <input type="text" nbInput placeholder="isDone" #inputIsDone value="{{isDone}}">
+    <button nbButton (click)="saveBtn(_id,inputText,inputDate,inputIsDone)" *ngIf="isEdit">{{btnStatus}}</button>
+  </div>
+  <nb-card-footer><button nbButton (click)="deleteTodo(_id)">Delete</button>
+    <button nbButton (click)="editBtnClicked()" *ngIf="!isEdit">{{btnStatus}}</button>
+
+  </nb-card-footer>
+</nb-card>
