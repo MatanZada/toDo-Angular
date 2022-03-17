@@ -1,27 +1,45 @@
-# ToDoAngular
+# Home Work 10.03.22
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.5.
+# ToDo-Angular
 
-## Development server
+- Create an anguler project called "to-do".
+- Add 3 inputs: text, date, isDone
+- create an interface for todo with all fields.
+- Add the abbility to add TODO, delete edit to do.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Bonus: Add the ability to order the todo by date
 
-## Code scaffolding
+good luck.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Installation
 
-## Build
+Install my-project with npm
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+```bash
+  npm install
+  cd toDo-Angular
+```
 
-## Running unit tests
+## Screenshots
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- Adding inputs
+  ![App Screenshot](/img/one.png)
+- Change the input by the edit
+  ![App Screenshot](/img/Two.png)
+- Change input
+  ![App Screenshot](/img/three.png)
+- Delete input by the Delete button
+  ![App Screenshot](/img/Four.png)
 
-## Running end-to-end tests
+## Feedback
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+If you have any feedback, please reach out to us at matan.zada1@gmail.com
 
-## Further help
+## Used By
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+This project is used in the following languages:
+
+- HTML
+- CSS
+- JavaScript
+- Nebular Angular
