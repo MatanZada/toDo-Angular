@@ -7,10 +7,10 @@
 - create an interface for todo with all fields.
 - Add the abbility to add TODO, delete edit to do.
 - By using ngClass if the actor is a female mark the row in red, else in blue.
-- Add a pipe that you can search for a movie by name.
+- Add a pipe that you can search for a todo by name.
 
 Bunos:
-Add a pipe that you can search for a movie by actor name.
+Add a pipe that you can search for a todo by name.
 Bonus: Add the ability to order the todo by date
 
 good luck.
