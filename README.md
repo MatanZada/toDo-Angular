@@ -6,7 +6,11 @@
 - Add 3 inputs: text, date, isDone
 - create an interface for todo with all fields.
 - Add the abbility to add TODO, delete edit to do.
+- By using ngClass if the actor is a female mark the row in red, else in blue.
+- Add a pipe that you can search for a movie by name.
 
+Bunos:
+Add a pipe that you can search for a movie by actor name.
 Bonus: Add the ability to order the todo by date
 
 good luck.
@@ -30,6 +34,10 @@ Install my-project with npm
   ![App Screenshot](/img/three.png)
 - Delete input by the Delete button
   ![App Screenshot](/img/Four.png)
+- Color change by ngClass
+  ![App Screenshot](/img/ngClass.png)
+- Pipe filter on the right by True \ False
+  ![App Screenshot](/img/pipeFilter.png)
 
 ## Feedback
 
