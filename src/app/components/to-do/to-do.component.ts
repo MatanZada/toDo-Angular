@@ -7,6 +7,7 @@ import { TodoService } from 'src/app/services/todo.service';
   styleUrls: ['./to-do.component.css'],
 })
 export class ToDoComponent {
+  classIsDoneTrueOrFalse = ['red'];
   deleteTodo(id: string) {
     this.service.deleteThisTodo(id);
   }

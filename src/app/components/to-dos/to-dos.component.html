@@ -1,2 +1,5 @@
-<app-to-do *ngFor="let toDo of toDos" [_id]="toDo._id" [Text]="toDo.Text" [Date]="toDo.Date" [isDone]="toDo.isDone">
+<input type="text" nbInput placeholder="Search True/false" [(ngModel)]="filterSearch">
+
+<app-to-do *ngFor="let toDo of toDos | filter:filterSearch" [_id]="toDo._id" [Text]="toDo.Text" [Date]="toDo.Date"
+  [isDone]="toDo.isDone">
 </app-to-do>

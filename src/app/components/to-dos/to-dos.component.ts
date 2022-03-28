@@ -8,6 +8,7 @@ import { Todo } from 'src/app/interfaces/todo';
   styleUrls: ['./to-dos.component.css'],
 })
 export class ToDosComponent {
+  filterSearch: string = '';
   toDos: Todo[] = [];
 
   constructor(service: TodoService) {

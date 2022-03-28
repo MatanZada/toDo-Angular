@@ -1,9 +1,15 @@
 <nb-card>
   <nb-card-header>TODO {{_id}}</nb-card-header>
   <nb-card-body *ngIf="!isEdit">
+
     {{Text}}<br>
     {{Date}}<br>
-    {{isDone}}<br>
+    <span [ngClass]="classIsDoneTrueOrFalse">
+      {{isDone}}<br>
+    </span>
+
+
+
   </nb-card-body>
   <div *ngIf="isEdit">
     <input type="text" nbInput placeholder="Text" #inputText value="{{Text}}">
