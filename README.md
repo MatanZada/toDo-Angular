@@ -38,6 +38,10 @@ Install my-project with npm
   ![App Screenshot](/img/ngClass.png)
 - Pipe filter on the right by True \ False
   ![App Screenshot](/img/pipeFilter.png)
+- filter on the left by True
+  ![App Screenshot](/img/true.png)
+- filter on the left by false
+  ![App Screenshot](/img/false.png)
 
 ## Feedback
 
